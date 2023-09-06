@@ -19,6 +19,8 @@ jobs:
           version-type: strict
           version-file: .github/workflows/.tool-versions
 
+      - name: Check code style
+        run: rebar3 fmt --check
+
       - name: Run eunit tests
         run: rebar3 eunit
-        
