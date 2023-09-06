@@ -1,0 +1,8 @@
+{application, lesson2, [
+    {description, "erlang course 2023 lesson2"},
+    {vsn, "git"},
+    {registered, []},
+    {applications, [kernel, stdlib]},
+    {env, []},
+    {modules, []}
+]}.
