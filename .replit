@@ -1,6 +1,6 @@
 run = ["rebar3", "eunit"]
 
-hidden = ["**/*.beam"]
+hidden = ["**/*.beam", "_build"]
 
 [nix]
 channel = "stable-22_11"
