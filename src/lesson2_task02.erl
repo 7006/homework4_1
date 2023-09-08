@@ -8,6 +8,6 @@ but_last([]) ->
 but_last([_]) ->
     undefined;
 but_last([X, Y]) ->
-    {X, Y};
+    [X, Y];
 but_last([_ | T]) ->
     but_last(T).
